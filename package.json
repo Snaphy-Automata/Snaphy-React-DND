@@ -1,0 +1,26 @@
+{
+  "name": "snaphy-react-sortable-dnd",
+  "version": "1.0.0",
+  "description": "React Sortable HOC build from React HOC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snaphy-Automata/Snaphy-React-DND.git"
+  },
+  "keywords": [
+    "ReactDND",
+    "React",
+    "Drag",
+    "And",
+    "Drop"
+  ],
+  "author": "Robins Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snaphy-Automata/Snaphy-React-DND/issues"
+  },
+  "homepage": "https://github.com/Snaphy-Automata/Snaphy-React-DND#readme"
+}
