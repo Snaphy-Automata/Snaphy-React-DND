@@ -1,11 +1,11 @@
 {
   "name": "snaphy-react-sortable-dnd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Sortable HOC build from React HOC",
-  "main": "dist/index.js",
+  "main": "dist",
   "scripts": {
     "build": "webpack",
-    "build:babel": "./node_modules/.bin/babel ./SortableHandle  -d dist/SortableHandle && ./node_modules/.bin/babel ./SortableGroup  -d dist/SortableGroup && ./node_modules/.bin/babel ./SortableElement  -d dist/SortableElement && ./node_modules/.bin/babel ./DragLayer  -d dist/DragLayer && ./node_modules/.bin/babel ./SortableContainer  -d dist/SortableContainer && ./node_modules/.bin/babel index.js  -d dist",
+    "build:babel": "./node_modules/.bin/babel ./Manager.js  -d dist && ./node_modules/.bin/babel ./utils.js  -d dist && ./node_modules/.bin/babel ./SortableHandle  -d dist/SortableHandle && ./node_modules/.bin/babel ./SortableGroup  -d dist/SortableGroup && ./node_modules/.bin/babel ./SortableElement  -d dist/SortableElement && ./node_modules/.bin/babel ./DragLayer  -d dist/DragLayer && ./node_modules/.bin/babel ./SortableContainer  -d dist/SortableContainer && ./node_modules/.bin/babel index.js  -d dist",
     "rollup": "./node_modules/.bin/rollup -c",
     "build:clean": "rimraf dist",
     "build:dist": "./node_modules/.bin/rollup -c",
