@@ -13,6 +13,11 @@ module.exports = {
                 query: {
                     presets: ['es2015', 'stage-0', 'react']
                 }
+            },
+            {
+                test: /(\.jsx|\.js)$/,
+                loader: "eslint-loader",
+                exclude: /node_modules/
             }
         ]
     }
